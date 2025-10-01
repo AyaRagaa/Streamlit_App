@@ -43,11 +43,13 @@ The frontend is built with **Streamlit** for an interactive chat UI.
    ```
 
 
-2. Create a Virtual Environment (recommended)
+2. **Create a Virtual Environment (recommended)**
 
-python -m venv venv
-source venv/bin/activate   # Mac/Linux
-venv\Scripts\activate      # Windows
+  ```bash
+  python -m venv venv
+  source venv/bin/activate   # Mac/Linux
+  venv\Scripts\activate      # Windows
+  ```
 
 
 3. Install Dependencies
@@ -114,4 +116,5 @@ sentence-transformers
 python-dotenv
 
 (See requirements.txt for the full list.)
+
 

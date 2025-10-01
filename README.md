@@ -40,6 +40,7 @@ The frontend is built with **Streamlit** for an interactive chat UI.
    ```bash
    git clone https://github.com/AyaRagaa/Streamlit_App.git
    cd Streamlit_App
+   ```
 
 
 2. Create a Virtual Environment (recommended)
@@ -113,3 +114,4 @@ sentence-transformers
 python-dotenv
 
 (See requirements.txt for the full list.)
+

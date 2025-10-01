@@ -55,66 +55,70 @@ The frontend is built with **Streamlit** for an interactive chat UI.
   pip install -r requirements.txt
   ```
 
-🏃 Usage
+---
 
-Make sure you have a Groq API key in your .env file:
+## 🏃 Usage
 
-GROQ_API_KEY=your_api_key_here
+- Make sure you have a Groq API key in your .env file:
 
-
-Add any knowledge to knowledge.txt (optional).
-
-Run the Streamlit app:
-
-streamlit run app.py
+  ```bash
+  GROQ_API_KEY=your_api_key_here
+  ```
 
 
-Open the app in your browser at:
+- Add any knowledge to knowledge.txt (optional).
 
-http://localhost:8501
+- Run the Streamlit app:
 
-✨ Example Tools
-
-Math Tool
-
-User: add 10 and 5  
-Agent: 15
+  ```bash
+  streamlit run app.py
+  ```
 
 
-Web Search
+---
 
-User: latest AI news  
-Agent: [retrieves top results from DuckDuckGo]
+## ✨ Example Tools
+
+### Math Tool
+
+  ```bash
+  User: add 10 and 5  
+  Agent: 15
+  ```
 
 
-RAG Search
+### Web Search
 
-User: What does the knowledge base say about LangGraph?  
-Agent: [retrieved answer from knowledge.txt]
+  ```bash
+  User: latest AI news  
+  Agent: [retrieves top results from DuckDuckGo]
+  ```
 
-📜 Requirements
+
+### RAG Search
+
+  ```bash
+  User: How old is Aya?  
+  Agent: [retrieved answer from knowledge.txt]
+  ```
+
+---
+
+## 📜 Requirements
 
 The main dependencies are:
 
-streamlit
+- streamlit
+- langgraph
+- langchain
+- langchain_groq
+- langchain_community
+- duckduckgo-search
+- faiss-cpu
+- sentence-transformers
+- python-dotenv
 
-langgraph
 
-langchain
-
-langchain_groq
-
-langchain_community
-
-duckduckgo-search
-
-faiss-cpu
-
-sentence-transformers
-
-python-dotenv
-
-(See requirements.txt for the full list.)
 
 
 
